@@ -1,0 +1,53 @@
+*{
+    transition: all .4s ease;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+button{
+    outline: none;
+}
+
+@media (max-width: 999px) {
+    #more {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    header nav a{
+        padding: 0.2rem;
+    }
+}
+
+a{
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+a:hover{
+    color: black!important;
+    text-decoration: underline;
+}
+
+#languages img{
+    width: 50px;
+}
+
+header{
+    background-color: white;
+    z-index: 1000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: cyan;}
+
+
+.e{
+    border:black
+}
